@@ -18,7 +18,6 @@ def articles_list(request):
             'text': a.text,
             'image': a.image,
         })
-        print(a.image)
 
     context = {
         'object_list': object_list
